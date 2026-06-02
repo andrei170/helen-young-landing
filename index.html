@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Quote Script | Solo Cleaners' Success Academy</title>
+<meta name="description" content="The Quote Script Helen Young used to move from £15-per-hour regulars to £1,000-per-week monthly clients. Built for UK solo cleaners. From Solo Cleaners' Success Academy.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Quote Script | Solo Cleaners' Success Academy">
+<meta property="og:description" content="The Quote Script Helen used to move from £15-per-hour regulars to £1,000-per-week monthly clients. Built for UK solo cleaners.">
+<meta property="og:url" content="https://andrei170.github.io/helen-young-landing/">
+<meta property="og:image" content="https://andrei170.github.io/helen-young-hub/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Quote Script | Solo Cleaners' Success Academy">
+<meta name="twitter:description" content="The Quote Script Helen used to move from £15-per-hour regulars to £1,000-per-week monthly clients.">
+<meta name="twitter:image" content="https://andrei170.github.io/helen-young-hub/og-image.png">
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;✨&lt;/text&gt;&lt;/svg&gt;">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Sarina&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --deep:#11062b;
+    --navy:#1A1F71;
+    --navy-2:#2a2f8a;
+    --mint:#B0E0DC;
+    --mint-2:#c8eae6;
+    --cream:#faf7f2;
+    --white:#FFFFFF;
+    --ink:#11062b;
+    --muted:#6e6878;
+    --line:#e6e2ea;
+    --gold:#b88f3c;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Montserrat',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.7;font-size:17px;-webkit-font-smoothing:antialiased;}
+  h1,h2,h3{font-family:'Montserrat',sans-serif;font-weight:800;line-height:1.18;color:var(--ink);letter-spacing:-0.01em;}
+  h1{font-size:3rem;}
+  h2{font-size:2.05rem;}
+  h3{font-size:1.2rem;}
+  p{margin-bottom:1rem;}
+  a{text-decoration:none;color:inherit;}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 22px;}
+  section{padding:78px 0;}
+
+  .script-font{font-family:'Sarina',cursive;font-weight:400;color:var(--mint);}
+
+  .btn{display:inline-block;background:var(--mint);color:var(--deep);font-weight:700;font-size:1.04rem;padding:16px 36px;border-radius:50px;border:none;cursor:pointer;letter-spacing:.01em;transition:transform .18s ease, box-shadow .18s ease, background .18s ease;box-shadow:0 8px 22px rgba(176,224,220,.45);}
+  .btn:hover{background:var(--mint-2);transform:translateY(-2px);box-shadow:0 12px 28px rgba(176,224,220,.55);}
+  .btn-sm{padding:11px 22px;font-size:.93rem;}
+  .btn-ghost{background:transparent;border:1.5px solid var(--mint);color:var(--mint);}
+  .btn-ghost:hover{background:rgba(176,224,220,.12);}
+
+  nav{position:sticky;top:0;z-index:50;background:rgba(17,6,43,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid rgba(176,224,220,.18);}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:72px;}
+  .wordmark{font-family:'Montserrat',sans-serif;font-weight:800;font-size:1.05rem;color:var(--white);letter-spacing:.06em;text-transform:uppercase;}
+  .wordmark .accent{font-family:'Sarina',cursive;text-transform:none;color:var(--mint);font-weight:400;letter-spacing:0;margin-right:6px;}
+
+  .hero{background:linear-gradient(180deg,var(--deep) 0%, #1a0d3a 70%, var(--navy) 100%);padding:96px 0 88px;text-align:center;color:var(--white);position:relative;overflow:hidden;}
+  .hero::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%, rgba(176,224,220,.10), transparent 60%);pointer-events:none;}
+  .hero .inner{position:relative;z-index:1;}
+  .hero .kicker{font-family:'Montserrat',sans-serif;text-transform:uppercase;letter-spacing:.22em;font-size:.74rem;font-weight:700;color:var(--mint);margin-bottom:22px;}
+  .hero h1{max-width:24ch;margin:0 auto;font-size:3.1rem;color:var(--white);}
+  .hero h1 .it{font-family:'Sarina',cursive;color:var(--mint);font-weight:400;letter-spacing:0;}
+  .hero-rule{width:60px;height:3px;background:var(--mint);margin:24px auto 22px;}
+  .hero-sub{font-size:1.15rem;color:rgba(255,255,255,.82);max-width:58ch;margin:6px auto 30px;}
+  .trust-line{margin-top:24px;font-size:.92rem;color:rgba(255,255,255,.78);font-weight:500;}
+  .hero-img{max-width:140px;border-radius:50%;border:3px solid var(--mint);margin:30px auto 0;display:block;box-shadow:0 12px 30px rgba(0,0,0,.4);}
+
+  .cred{background:var(--navy);color:var(--mint-2);padding:26px 0;}
+  .cred-label{text-align:center;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--mint);margin-bottom:14px;font-weight:700;}
+  .cred-grid{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:center;align-items:center;}
+  .cred-grid span{font-family:'Montserrat',sans-serif;font-weight:600;font-size:.98rem;color:var(--mint-2);}
+  .cred-grid .dot{color:var(--mint);font-weight:400;}
+
+  .lead{font-size:1.15rem;color:var(--muted);max-width:62ch;}
+  .pain-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:34px;}
+  .pain{background:var(--cream);border:1px solid var(--line);border-left:4px solid var(--navy);padding:20px 22px;border-radius:6px;font-weight:600;color:var(--ink);}
+
+  .alt{background:var(--cream);}
+  .pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:42px;}
+  .card{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:32px 26px;transition:transform .2s ease, box-shadow .2s ease;}
+  .card:hover{transform:translateY(-5px);box-shadow:0 16px 34px rgba(17,6,43,.1);}
+  .pill-num{font-family:'Montserrat',sans-serif;width:52px;height:52px;border-radius:50%;background:var(--deep);color:var(--mint);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.3rem;margin-bottom:18px;}
+
+  .vsl-box{max-width:820px;margin:36px auto 0;aspect-ratio:16/9;border-radius:12px;background:linear-gradient(135deg,var(--deep),var(--navy));display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--mint-2);border:1px solid rgba(176,224,220,.25);cursor:pointer;transition:transform .2s ease;}
+  .vsl-box:hover{transform:scale(1.01);}
+  .play{width:78px;height:78px;border-radius:50%;background:var(--mint);display:flex;align-items:center;justify-content:center;margin-bottom:18px;box-shadow:0 8px 24px rgba(176,224,220,.45);}
+  .play::after{content:"";border-left:24px solid var(--deep);border-top:15px solid transparent;border-bottom:15px solid transparent;margin-left:6px;}
+  .vsl-label{font-weight:500;font-size:1.05rem;font-family:'Montserrat',sans-serif;color:var(--mint-2);}
+
+  .stack{max-width:760px;margin:38px auto 0;}
+  .stack-item{display:flex;gap:16px;align-items:flex-start;background:var(--white);border:1px solid var(--line);border-radius:10px;padding:20px 24px;margin-bottom:14px;}
+  .check{flex-shrink:0;width:30px;height:30px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center;color:var(--mint);font-weight:700;margin-top:2px;}
+  .stack-item h3{font-size:1.08rem;margin-bottom:4px;}
+  .stack-item p{margin:0;color:var(--muted);font-size:.97rem;}
+
+  .price-box{max-width:560px;margin:40px auto 0;background:var(--white);border:1px solid var(--line);border-radius:18px;padding:42px 32px;text-align:center;box-shadow:0 20px 50px rgba(17,6,43,.10);}
+  .price-box .tag{display:inline-block;background:var(--deep);color:var(--mint);font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:6px 14px;border-radius:30px;margin-bottom:18px;}
+  .price-headline{font-family:'Montserrat',sans-serif;font-size:1.95rem;color:var(--ink);line-height:1.18;margin-bottom:6px;font-weight:800;}
+  .price-alt{color:var(--muted);font-size:.98rem;margin:8px 0 22px;}
+  .price-box .btn{width:100%;}
+  .price-or{margin:18px auto 0;font-size:.88rem;color:var(--muted);}
+  .price-or a{color:var(--navy);font-weight:700;text-decoration:underline;}
+  .guarantee{font-size:.86rem;color:var(--muted);margin-top:16px;}
+
+  .reviews{background:var(--cream);}
+  .review-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:36px;}
+  .review{background:var(--white);border:1px solid var(--line);border-left:4px solid var(--mint);border-radius:10px;padding:22px 24px;}
+  .review .quote{font-family:'Montserrat',sans-serif;font-style:italic;color:var(--ink);margin-bottom:10px;font-size:.98rem;line-height:1.6;}
+  .review .name{font-weight:700;color:var(--navy);font-size:.92rem;letter-spacing:.02em;}
+
+  .story{background:var(--deep);color:var(--mint-2);}
+  .story h2{color:var(--white);}
+  .story .eyebrow{color:var(--mint);}
+  .story p{color:rgba(255,255,255,.82);font-size:1.08rem;}
+  .story-grid{display:grid;grid-template-columns:1fr;gap:18px;max-width:780px;margin:0 auto;text-align:center;}
+  .story-img{max-width:160px;border-radius:50%;border:3px solid var(--mint);margin:24px auto 0;display:block;}
+  .story-note{font-size:.84rem;color:rgba(176,224,220,.7);font-style:italic;margin-top:18px;}
+
+  .final{text-align:center;background:var(--cream);}
+  .final h2{max-width:24ch;margin:0 auto 16px;}
+
+  .faq{max-width:780px;margin:34px auto 0;}
+  .q{border:1px solid var(--line);border-radius:10px;margin-bottom:12px;background:var(--white);overflow:hidden;}
+  .q-head{width:100%;text-align:left;background:none;border:none;cursor:pointer;padding:20px 24px;font-weight:700;font-size:1.02rem;color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:16px;font-family:'Montserrat',sans-serif;}
+  .q-icon{flex-shrink:0;font-size:1.4rem;color:var(--navy);transition:transform .25s ease;font-weight:700;}
+  .q.open .q-icon{transform:rotate(45deg);}
+  .q-body{max-height:0;overflow:hidden;transition:max-height .3s ease;color:var(--muted);}
+  .q-body p{padding:0 24px 20px;margin:0;}
+
+  .disclaimer{background:var(--cream);padding:24px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .disclaimer p{margin:0 auto;max-width:780px;font-size:.84rem;color:var(--muted);text-align:center;font-style:italic;}
+
+  footer{background:var(--deep);color:rgba(255,255,255,.7);padding:42px 0;}
+  .foot-inner{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:20px;}
+  .foot-nav{display:flex;gap:22px;flex-wrap:wrap;}
+  .foot-nav a{color:rgba(176,224,220,.8);font-size:.9rem;transition:color .2s ease;}
+  .foot-nav a:hover{color:var(--mint);}
+  .copy{font-size:.82rem;color:rgba(255,255,255,.5);margin-top:8px;width:100%;}
+
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease, transform .6s ease;}
+  .reveal.show{opacity:1;transform:none;}
+  .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-weight:700;font-size:.78rem;color:var(--navy);margin-bottom:12px;}
+  .center{text-align:center;}
+
+  @media(max-width:860px){
+    h1{font-size:2.1rem;}.hero h1{font-size:2.15rem;}h2{font-size:1.55rem;}
+    .pillars{grid-template-columns:1fr;}
+    .pain-grid{grid-template-columns:1fr;}
+    .review-grid{grid-template-columns:1fr;}
+    section{padding:56px 0;}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="wrap nav-inner">
+    <div class="wordmark"><span class="accent">solo cleaners'</span> SUCCESS ACADEMY</div>
+    <a href="#kit" class="btn btn-sm">Get The Quote Script</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap inner">
+    <p class="kicker reveal">For UK solo cleaners</p>
+    <h1 class="reveal">The Quote Script I used to move from <span class="it">£15-an-hour regulars to £1,000-a-week monthly clients.</span></h1>
+    <div class="hero-rule reveal"></div>
+    <p class="hero-sub reveal">The same one-page script I use on my own quotes in Swindon. Built for solo cleaners who are quietly undercharging and want monthly clients, not more one-off jobs.</p>
+    <a href="#kit" class="btn reveal">Get The Quote Script</a>
+    <p class="trust-line reveal">From Helen Young, founder of Solo Cleaners' Success Academy. Sixth year as a solo cleaner. Third year teaching cleaners. Based in Swindon, UK.</p>
+    <img class="hero-img reveal" src="https://static.wixstatic.com/media/bcb177_b1322e93e7f148379ca15419ea531cb5~mv2.jpg" alt="Helen Young, founder of Solo Cleaners' Success Academy" onerror="this.style.display='none'">
+  </div>
+</header>
+
+<!-- CREDIBILITY BAR -->
+<div class="cred">
+  <div class="wrap">
+    <div class="cred-label">Membership brand partners</div>
+    <div class="cred-grid">
+      <span>Stone Care Direct</span><span class="dot">&bull;</span>
+      <span>Avica UK</span><span class="dot">&bull;</span>
+      <span>Green Bear</span><span class="dot">&bull;</span>
+      <span>Mop Stop</span>
+    </div>
+  </div>
+</div>
+
+<!-- PROBLEM -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow reveal">Real talk</p>
+    <h2 class="reveal">It is not that you charge too little. It is that you quote without a script.</h2>
+    <p class="lead reveal">You are out cleaning all week, doing brilliant work, and quietly earning less than the agency cleaners you used to work with. The price is not the problem. The way the price comes out of your mouth is. Sound familiar?</p>
+    <div class="pain-grid">
+      <div class="pain reveal">You quote on instinct, then second-guess the number the whole drive home.</div>
+      <div class="pain reveal">Your diary is full of one-off jobs. There are barely any weekly or fortnightly slots.</div>
+      <div class="pain reveal">You have been meaning to put your prices up for a year, but you are scared the regulars will leave.</div>
+      <div class="pain reveal">Most "business coaching" content online is for agencies or bro-coaches, not a solo cleaner running her own kit out the boot.</div>
+      <div class="pain reveal">You went solo to be there for the school run, and somehow you are now working weekends to make the numbers work.</div>
+      <div class="pain reveal">You want a system, not another course. A way to quote, land, and keep the right clients.</div>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUTION -->
+<section class="alt">
+  <div class="wrap">
+    <p class="eyebrow reveal center">The method</p>
+    <h2 class="reveal center">The Solo Cleaners System</h2>
+    <p class="lead reveal center" style="margin:14px auto 0;">Three steps. Built for solo cleaners running a business around a family, not for agencies.</p>
+    <div class="pillars">
+      <div class="card reveal">
+        <div class="pill-num">1</div>
+        <h3>Quote It Right</h3>
+        <p>The words you use on the call and on the quote so you stop undercharging. The single page that does the work for you.</p>
+      </div>
+      <div class="card reveal">
+        <div class="pill-num">2</div>
+        <h3>Land The Monthly Client</h3>
+        <p>The simple positioning shift that turns one-off jobs into recurring weekly and fortnightly slots, so the diary stops resetting.</p>
+      </div>
+      <div class="card reveal">
+        <div class="pill-num">3</div>
+        <h3>Build It Around The School Run</h3>
+        <p>The boundaries, systems, and small marketing routine that keep a solo cleaning business sustainable without staff and without weekends.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VSL -->
+<section>
+  <div class="wrap">
+    <h2 class="reveal center">Watch this first</h2>
+    <div class="vsl-box reveal">
+      <div class="play"></div>
+      <div class="vsl-label">The 6-minute Quote Script walkthrough.</div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT'S INSIDE -->
+<section class="alt">
+  <div class="wrap">
+    <p class="eyebrow reveal center">What's inside</p>
+    <h2 class="reveal center">A free Quote Script, not another course</h2>
+    <p class="lead reveal center" style="margin:14px auto 0;">Read it in a cuppa. Use it on your next quote.</p>
+    <div class="stack">
+      <div class="stack-item reveal"><div class="check">&#10003;</div><div><h3>The one-page Quote Script PDF</h3><p>Exactly what I say on the call and write on the quote. Print it, keep it on the dashboard, use it tomorrow.</p></div></div>
+      <div class="stack-item reveal"><div class="check">&#10003;</div><div><h3>The price-raise script</h3><p>The two-line message I send existing regulars when I put my prices up. Lets you hold the relationship without losing the slot.</p></div></div>
+      <div class="stack-item reveal"><div class="check">&#10003;</div><div><h3>The monthly-client positioning shift</h3><p>The single sentence that turns "I'll just have you once" into "can we book this in every week".</p></div></div>
+      <div class="stack-item reveal"><div class="check">&#10003;</div><div><h3>The 6-minute walkthrough video</h3><p>A short video where I'm in your ear while you read the script. Like a cuppa with a mate who already runs the business.</p></div></div>
+      <div class="stack-item reveal"><div class="check">&#10003;</div><div><h3>The 5-email welcome series</h3><p>The real-world objection answers, my IT-trainer-to-solo-cleaner story, and a softly-walked invitation to the Success Academy at the pace that fits.</p></div></div>
+      <div class="stack-item reveal"><div class="check">&#10003;</div><div><h3>The fit-call route, if you want it</h3><p>If you read the script and think "I want to talk to Helen before joining," there is a free fit-call link in the last email. No hard sell.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS (real, from /reviews on solocleaners.co.uk) -->
+<section class="reviews">
+  <div class="wrap">
+    <p class="eyebrow reveal center">Real students, real reviews</p>
+    <h2 class="reveal center">15 named cleaners. None of them my mates.</h2>
+    <p class="lead reveal center" style="margin:14px auto 0;">A handful of the reviews on solocleaners.co.uk/reviews. Quoted verbatim, fully attributed.</p>
+    <div class="review-grid">
+      <div class="review reveal"><p class="quote">"Helen's course helped me boost my confidence to quote higher and believe in myself."</p><p class="name">Clean By Monika</p></div>
+      <div class="review reveal"><p class="quote">"Never in a million years would I have felt as confident and knowledgeable as I do now."</p><p class="name">Neotopia Cleaning Services by Kay</p></div>
+      <div class="review reveal"><p class="quote">"It has completely changed my mindset on what I deserve to earn in my business."</p><p class="name">Emma Jane Chlopas</p></div>
+      <div class="review reveal"><p class="quote">"I've changed my business for the better, earning more than ever. Thank you Helen."</p><p class="name">Jenny Houghton</p></div>
+      <div class="review reveal"><p class="quote">"Helen's ideas and proven successes has enabled me to employ my daughter to help me."</p><p class="name">Verity Williamson</p></div>
+      <div class="review reveal"><p class="quote">"Helens courses genuinely changed the trajectory of my business."</p><p class="name">Georgia Stacey</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICE -->
+<section id="kit">
+  <div class="wrap">
+    <h2 class="reveal center">Get The Quote Script</h2>
+    <div class="price-box reveal">
+      <span class="tag">Free Solo Cleaners Quote Script</span>
+      <div class="price-headline">Free. Read in a cuppa. Use on your next quote.</div>
+      <div class="price-alt">Instant PDF + the 6-minute walkthrough + the 5-email welcome series.</div>
+      <a href="https://solocleaners.mykajabi.com/mailinglist" class="btn" target="_blank" rel="noopener">Send Me The Quote Script</a>
+      <div class="price-or">Prefer to talk first? <a href="https://calendly.com/ag-copy/call-with-andrei" target="_blank" rel="noopener">Book a free fit call.</a></div>
+      <div class="guarantee">Built for UK solo cleaners. General business education, not regulated advice.</div>
+    </div>
+  </div>
+</section>
+
+<!-- STORY -->
+<section class="story">
+  <div class="wrap story-grid">
+    <p class="eyebrow reveal">Why I built this</p>
+    <h2 class="reveal">Ten years training IT, then a school run, then a cleaning business that worked.</h2>
+    <p class="reveal">I am Helen, based in Swindon. I trained software users for over ten years before I started my solo cleaning business in September 2020 when my kids went back to school after lockdown. I still go to do the school run each day. I am still cleaning solo as @cleanbyhelen, while I run the Success Academy on the side.</p>
+    <p class="reveal">By the time my old IT contract came up, I was earning more cleaning part-time than I had been in IT full-time. That is my self-reported story, and it is the reason I started teaching other cleaners three years ago. The Quote Script you are about to download is the same one I built for myself.</p>
+    <img class="story-img reveal" src="https://static.wixstatic.com/media/bcb177_ec2311c75e334a39b564643550ec3761~mv2.jpg" alt="Helen Young at work" onerror="this.style.display='none'">
+    <p class="story-note reveal">Helen's income arc is self-reported on her About page. Individual results vary.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow reveal center">Good questions</p>
+    <h2 class="reveal center">Before you grab it</h2>
+    <div class="faq">
+      <div class="q"><button class="q-head">I have tried courses before and they did not stick.<span class="q-icon">+</span></button><div class="q-body"><p>Same problem most solo cleaners have. The Quote Script is not a course, it is one page you use on your next quote. The Success Academy I invite you to later is a year-round membership, not a one-and-done programme, so the system actually gets used.</p></div></div>
+      <div class="q"><button class="q-head">I am not ready to spend money on a membership.<span class="q-icon">+</span></button><div class="q-body"><p>That is fine. The Quote Script is free and the welcome series asks nothing. If and when you are ready, there is a £99 Beginner's Bundle and a £997 Lifetime Solo Cleaners' Club, with payment plans. No pressure.</p></div></div>
+      <div class="q"><button class="q-head">I am scared to put my prices up.<span class="q-icon">+</span></button><div class="q-body"><p>Most of us are. The Quote Script has the two-line price-raise message I send existing regulars when I put my prices up. It is a small, human script, not a hard sell.</p></div></div>
+      <div class="q"><button class="q-head">Is this regulated business or financial advice?<span class="q-icon">+</span></button><div class="q-body"><p>No, and it is important to be clear about that. This is general business education for self-employed cleaners. Solo Cleaners' Success Academy is not a regulated qualification, licence, or franchise. For tax, legal, insurance, or accountancy advice, speak to a regulated UK adviser.</p></div></div>
+      <div class="q"><button class="q-head">What if I want to talk to Helen before joining?<span class="q-icon">+</span></button><div class="q-body"><p>You can. Once you grab the Quote Script, the welcome series includes a free fit-call link. No hard sell, just a conversation about whether the Academy is the right fit for where you are now.</p></div></div>
+      <div class="q"><button class="q-head">Are the reviews on this page real?<span class="q-icon">+</span></button><div class="q-body"><p>Yes. Every quote is from a named cleaner who left a review on solocleaners.co.uk/reviews. We did not fabricate any of them.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final">
+  <div class="wrap">
+    <h2 class="reveal">Stop quoting on instinct. Use the script.</h2>
+    <p class="lead reveal center" style="margin:0 auto 28px;">Grab the Quote Script, read it in a cuppa, and use it on your next quote this week.</p>
+    <a href="#kit" class="btn reveal">Send Me The Quote Script</a>
+  </div>
+</section>
+
+<!-- DISCLAIMER -->
+<div class="disclaimer">
+  <div class="wrap">
+    <p>General business education for self-employed cleaners. Not regulated business, tax, legal, or financial advice. Solo Cleaners' Success Academy is a mentorship programme, not a franchise, licence, or regulated qualification. Income examples shared are Helen's self-reported results and are not a guarantee of yours. Individual results vary. UK consumer rights apply to all digital purchases.</p>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap foot-inner">
+    <div class="wordmark" style="color:var(--white);"><span class="accent">solo cleaners'</span> SUCCESS ACADEMY</div>
+    <div class="foot-nav">
+      <a href="https://www.solocleaners.co.uk" target="_blank" rel="noopener">solocleaners.co.uk</a>
+      <a href="https://www.instagram.com/solocleaners/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.instagram.com/cleanbyhelen/" target="_blank" rel="noopener">@cleanbyhelen</a>
+      <a href="https://www.facebook.com/groups/solocleaners/" target="_blank" rel="noopener">Free FB Group</a>
+      <a href="mailto:helen@solocleaners.co.uk">helen@solocleaners.co.uk</a>
+    </div>
+    <div class="copy">&copy; 2026 Solo Cleaners' Success Academy / Helen Young. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target); } });
+  },{threshold:0.12});
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+  document.querySelectorAll('.q-head').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var q = btn.parentElement;
+      var body = q.querySelector('.q-body');
+      var isOpen = q.classList.contains('open');
+      document.querySelectorAll('.q').forEach(function(other){
+        other.classList.remove('open');
+        other.querySelector('.q-body').style.maxHeight = null;
+      });
+      if(!isOpen){ q.classList.add('open'); body.style.maxHeight = body.scrollHeight + 'px'; }
+    });
+  });
+</script>
+<script>(function(){function fix(im){if(im.complete&&im.naturalWidth===0){im.style.display='none';}im.addEventListener('error',function(){this.style.display='none';});}document.querySelectorAll('img').forEach(fix);})();</script>
+</body>
+</html>
